@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="الملف الشخصي" />
+        <item
+            android:id="@+id/nav_group"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="المجموعات" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="الإعدادات" />
+        <item
+            android:id="@+id/nav_out"
+            android:icon="@drawable/logout"
+            android:title="تسجيل الخروج" />
+
+
+    </group>
+
+</menu>

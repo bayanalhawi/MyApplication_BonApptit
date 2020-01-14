@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/gridviewdata"
+        android:layout_width="match_parent"
+        android:layout_height="144dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="#fff">
+
+        <TextView
+            android:id="@+id/fruits"
+            android:layout_width="173dp"
+            android:layout_height="36dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="91dp"
+            android:layout_marginBottom="78dp"
+            android:text="@string/menuname"
+            android:textColor="@android:color/black"
+            android:textSize="18dp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/des"
+            android:layout_width="227dp"
+            android:layout_height="60dp"
+            android:layout_alignBottom="@+id/images"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="37dp"
+            android:layout_marginBottom="1dp"
+            android:text="@string/menudes" />
+
+        <ImageView
+            android:id="@+id/images"
+            android:layout_width="108dp"
+            android:layout_height="101dp"
+            android:layout_above="@+id/fruits"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="-96dp"
+            android:src="@drawable/ph1" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profileActivity">
+
+    <include
+        layout="@layout/action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="133dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="464dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/loginimg" />
+
+    <TextView
+        android:id="@+id/textViewusername"
+        android:layout_width="116dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="392dp"
+        android:text="اسم المستخدم:"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.136"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/editTextnamee"
+        android:layout_width="117dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="392dp"
+        android:ems="10"
+        android:hint="@string/signupname"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.882"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewuserphone"
+        android:layout_width="89dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="328dp"
+        android:text="رقم الجوال:"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.124"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/editTextphonee2"
+        android:layout_width="163dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginBottom="324dp"
+        android:ems="10"
+        android:hint="@string/phone"
+        android:inputType="phone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="162dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="252dp"
+        android:text="الحالة الصحية(ضغط، سكري، نوع الحساسية):"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.163"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/editTextstatuu"
+        android:layout_width="128dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginBottom="260dp"
+        android:ems="10"
+        android:hint="@string/statues"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttoneditprofile"
+        android:layout_width="84dp"
+        android:layout_height="36dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="496dp"
+        android:background="@drawable/rounded_button"
+        android:text="تعديل"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

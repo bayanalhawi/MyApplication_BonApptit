@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="5dp"
+        android:layout_width="395dp"
+        android:layout_height="587dp">
+
+    <ImageView
+        android:id="@+id/imagegroup"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        app:srcCompat="@drawable/ic_group_black_24dp" />
+
+    <EditText
+        android:id="@+id/editgroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="أدخل اسم المجموعة"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/createdgroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_button"
+        android:text="إنشاء المجموعة" />
+</LinearLayout>

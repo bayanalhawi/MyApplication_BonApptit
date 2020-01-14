@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".grouprActivity">
+
+    <include
+        layout="@layout/action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+            android:id="@+id/main_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:fitsSystemWindows="true"
+            android:orientation="vertical"
+            tools:context=".activities.SettingsActivity"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:weightSum="1">
+
+        <fragment android:id="@+id/settings_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:name="com.example.user.myapplication_bonapptit.SettingsActivity$GeneralPreferenceFragment"
+            tools:layout="@android:layout/preference_category" />
+
+        </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
+

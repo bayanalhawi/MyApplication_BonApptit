@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Application_BonApptit</string>
+    <string name="title_activity_menur1">menur1Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="loginpage">تسجيل الدخول</string>
+    <string name="phone">رقم الجوال</string>
+    <string name="signuppage">إنشاء حساب</string>
+    <string name="notificationspage">الوجبات المقترحة</string>
+    <string name="grouppage">المجموعات</string>
+    <string name="grouprpage">الوجبات المقترحة للمجموعة</string>
+    <string name="creategrouppage">إنشاء مجموعة</string>
+    <string name="settingpage">الإعدادات</string>
+    <string name="profilepage">الملف الشخصي</string>
+    <string name="editprofilepage">تعديل الملف الشخصي</string>
+    <string name="statues">الحالة الصحية</string>
+    <string name="signupname">اسم المستخدم</string>
+    <string name="signupheaulth">الحالة الصحية:</string>
+    <string name="cbox1">سكري</string>
+    <string name="cbox2">ضغط</string>
+    <string name="cbox3">حساسية من:</string>
+    <string name="menupage">قائمة الطعام</string>
+    <string name="menur">اقتراحات لك</string>
+    <string name="menura">الوجبات المقترحة</string>
+    <string name="menul">قائمة اليوم</string>
+    <string name="menudpage">تفاصيل الوجبة</string>
+    <string name="menuname">تفاحة</string>
+    <string name="rate">75 مراجعة</string>
+    <string name="menudes">معكرونة بالصلصة الحمراء.</string>
+    <string name="menuprice">10ر.س</string>
+    <string name="price">السعر:</string>
+    <string name="menurname">المطعم:</string>
+    <string name="menuruname">برجر كنج.</string>
+    <string name="menurl">العنوان:</string>
+    <string name="menurlo">حي الفيحاء.</string>
+    <string name="menurate">تقييمك:</string>
+
+    <string name="pref_example_switch">تفعيل الإشعارات</string>
+    <string name="pref_example_switch_summary">تفعيل الإشعارات عند الوصول للمطاعم المجاورة لإظهار الوجبات المقترحة</string>
+
+</resources>
